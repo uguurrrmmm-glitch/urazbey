@@ -20,9 +20,9 @@ on:
         type: boolean
         default: false
       runtime_minutes:
-        description: "Runtime in minutes (max 3244260; capped to 3244260)"
+        description: "Runtime in minutes (max 360; capped to 355)"
         required: false
-        default: "3244260"
+        default: "359"
       loops:
         description: "How many handoffs (0 = infinite)"
         required: false
